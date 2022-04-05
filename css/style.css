@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap');
+
+body{
+    background-color: black;
+}
+
+header figure{
+    display: flex;
+    align-items: center;
+    width: 229px;
+    height: 68px;
+    margin: 42px 0 0 517px;
+}
+
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    flex-wrap: nowrap;
+    position: absolute;
+    margin-left: 464px;
+    margin-top: 100px;
+}
+
+.perfis{
+    width: 700px;
+}
+
+.perfis ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 0;
+    position: absolute;
+    width: 718px;
+    height: 194px;
+    margin-left: 272px;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+
+.perfis ul li{
+    width: 160px;
+}
+
+.perfis p{
+    color: white;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+.perfis p:hover{
+    transform: scale(1.1);
+}
+
+.profile-image{
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 10%;
+    border: 1.5px transparent white;
+    overflow: hidden;
+}
+
+.profile-image:hover{
+    opacity: 1;
+    transition: 0.5s;
+    transform: scale(1.1);
+    border: 1.5px solid white;
+}
+
+input{
+    width: 206px;
+    height: 50px;
+    color: #ffff;
+    background-color: #0000;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    box-sizing: border-box;
+    border: 1.5px solid white;
+    border-radius: 8px;
+    margin-top: 450px;
+    margin-left: 520px;
+}
+
+.gerenciamento{
+    transition: 0.5s;
+}
+
+.gerenciamento :hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
